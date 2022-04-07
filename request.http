@@ -1,0 +1,26 @@
+//Using Rest Client on VScode
+//Adresse to coordinate
+
+### //Requete pour chez moi
+GET https://api-adresse.data.gouv.fr/search/?q=5+Avenue+Anatole+Paris
+
+### // Sans le nom de la ville c'est moins efficace
+GET https://api-adresse.data.gouv.fr/search/?q=5+Avenue+Anatole
+
+//Random Duck
+
+### //Cherche le GIF numéro 249
+GET https://random-d.uk/api/249.gif
+
+### //Un canard au hasard
+GET https://random-d.uk/api/random
+
+//weatherbit, prends la température à leur station la plus proche   J'AI UN COMPTE! => Key = <key>
+//request key on https://weatherbit.io
+
+### //Requete chez moi
+GET https://api.weatherbit.io/v2.0/current?postal_code=78620&country=FR&lang=fr&key=<key>
+
+### //Requete de base
+GET https://api.weatherbit.io/v2.0/current?postal_code=<CodePostal>&country=FR&lang=fr&key=<key>
+
